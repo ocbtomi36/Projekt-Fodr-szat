@@ -241,3 +241,27 @@ hr{
 .footer .socia > *{
     margin-right: 1.8rem;
 }
+
+/* Mobile */
+
+@media (max-width: 768px) {
+    .navbar{
+        flex-direction: column;
+        height: 7.5rem;
+        padding: 1,25rem;
+        min-height: 26%;
+    }
+    .navbar a {
+        padding: 0.6rem 0.6rem;
+        margin: 0 0.1rem;
+    }
+    nav > ul {
+        flex-direction: column;
+    }
+    .navbar > nav > ul > li {
+        border-bottom: 1px dotted black;
+    }
+    .flex-items {
+        flex-direction: column;
+    }
+}
