@@ -120,6 +120,13 @@ img{
     border-radius: 50%;
     margin-bottom: 15px;
 }
+/*Main section from Home */
+#about{
+    background-color: white;
+}
+
+
+
 /*Registration*/
 .article-forms{
     background-color: rgb(250, 184, 160);
@@ -207,4 +214,30 @@ hr{
     width: 80%;
     border: none;
     outline:none
+}
+
+/*footer*/
+
+.footer{
+    background-color: rgb(250, 184, 160);
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 12.5rem;
+}
+.footer a {
+    color:brown;
+}
+.footer a:hover{
+    color: coral;
+    cursor: pointer;
+}
+.footer p {
+    color: brown;
+}
+.footer .socia > *{
+    margin-right: 1.8rem;
 }
